@@ -1,0 +1,503 @@
+<!DOCTYPE HTML>
+<html>
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <title>四月杂货铺</title>
+
+  <link rel="shortcut icon" href="favicon.ico">
+  <link href="css/style.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="css/grid.css" media="screen" rel="stylesheet" type="text/css">
+
+  <script src="js/jquery-1.7.2.min.js" ></script>
+  <script src="js/html5.js" ></script>
+  <script src="js/jflow.plus.js" ></script>
+  <script src="js/jquery.carouFredSel-5.2.2-packed.js"></script>
+
+  <script>
+	$(document).ready(function(){
+	    $("#myController").jFlow({
+			controller: ".control", // must be class, use . sign
+			slideWrapper : "#jFlowSlider", // must be id, use # sign
+			slides: "#slider",  // the div where all your sliding divs are nested in
+			selectedWrapper: "jFlowSelected",  // just pure text, no sign
+			width: "984px",  // this is the width for the content-slider
+			height: "480px",  // this is the height for the content-slider
+			duration: 400,  // time in miliseconds to transition one slide
+			prev: ".slidprev", // must be class, use . sign
+			next: ".slidnext", // must be class, use . sign
+			auto: true
+    });
+  });
+  </script>
+  <script>
+	$(function() {
+	  $('#list_product').carouFredSel({
+		prev: '#prev_c1',
+		next: '#next_c1',
+		auto: false
+	  });
+          $('#list_product2').carouFredSel({
+		prev: '#prev_c2',
+		next: '#next_c2',
+		auto: false
+	  });
+	  $(window).resize();
+	});
+  </script>
+  <script>
+       $(document).ready(function(){
+	      $("button").click(function(){
+		     $(this).addClass('click')
+	      });
+       })
+  </script>
+
+</head>
+<body>
+  <div class="container_12">
+    <div id="top" >
+      <ul>
+									<li><a class="icon icon-home" href="../index.html"><span>四月物语</span></a></li>
+									<li>
+										<a href="../camera/index-c.html" class="icon icon-camera"><span>四月照相馆</span></a>
+								
+									</li>
+									<li><a class="icon icon-book" href="../book/index-b.html"><span>四月时光簿</span></a></li>
+									<li><a class="icon icon-shopping-cart" href="../shop/project-s.html"><span>四月杂货铺</span></a></li>
+								</ul>
+    </div><!-- #top -->
+
+    <div class="clear"></div>
+
+    <header id="branding">
+      <div class="grid_3">
+        <hgroup>
+          <h1 id="site_logo" ><a href="index.html" title=""><img src="images/logo.png" alt="四月杂货铺"/></a></h1>
+          <h2 id="site_description">April Grocery Store</h2>
+        </hgroup>
+      </div><!-- .grid_3 -->
+
+      <div class="grid_3">
+        <form class="search">
+          <input type="text" name="search" class="entry_form" value="" placeholder="搜索本店"/>
+	</form>
+      </div><!-- .grid_3 -->
+
+      <div class="grid_6">
+        <ul id="cart_nav">
+          <li>
+            <a class="cart_li" href="#">购物车 <span>$0.00</span></a>
+            <ul class="cart_cont">
+              <li class="no_border"><p>最近添加的商品</p></li>
+              <li>
+                <a href="product_page.html" class="prev_cart"><div class="cart_vert"><img src="images/cart_img.png" alt="" title="" /></div></a>
+                <div class="cont_cart">
+                  <h4>韩国可莱丝面膜 nmf针剂补水1片</h4>
+                  <div class="price">1 x $x.00</div>
+                </div>
+                <a title="close" class="close" href="#"></a>
+                <div class="clear"></div>
+              </li>
+              
+              <li>
+                <a href="product_page.html" class="prev_cart"><div class="cart_vert"><img src="images/produkt_slid1.png" alt="" title="" /></div></a>
+                <div class="cont_cart">
+                  <h4>Karicare可瑞康3段金装幼儿配方奶粉900g</h4>
+                  <div class="price">1 x $X.00</div>
+                </div>
+                <a title="close" class="close" href="#"></a>
+                <div class="clear"></div>
+              </li>
+	      <li class="no_border">
+		<a href="shopping_cart.html" class="view_cart">查看购物车</a>
+		<a href="checkout.html" class="checkout">结账</a>
+	      </li>
+            </ul>
+          </li>
+        </ul>
+
+        <nav class="private">
+          <ul>
+            <li><a href="#">我的账户</a></li>
+		<li class="separator">|</li>
+            <li><a href="#">愿望清单</a></li>
+		<li class="separator">|</li>
+            <li><a href="login.html">登陆</a></li>
+		<li class="separator">|</li>
+            <li><a href="login.html">注册</a></li>
+          </ul>
+        </nav><!-- .private -->
+      </div><!-- .grid_6 -->
+    </header><!-- #branding -->
+  </div><!-- .container_12 -->
+
+  <div class="clear"></div>
+
+  <div id="block_nav_primary">
+    <div class="container_12">
+      <div class="grid_12">
+        <nav class="primary">
+          <ul>
+            <li class="curent"><a href="index.html">首页</a></li>
+            <li><a href="catalog_grid.html">亚洲</a>
+			  <ul class="sub">
+                <li><a href="catalog_grid.html">生活家居</a></li>
+                <li><a href="catalog_grid.html">美容护肤</a></li>
+                <li><a href="catalog_grid.html">其他</a></li>
+              </ul>
+			     </li>
+            <li><a href="catalog_grid.html">美洲</a></li>
+			
+            <li>
+              <a href="catalog_grid.html">大洋洲</a>
+              <ul class="sub">
+                <li><a href="catalog_grid.html">母婴用品</a></li>
+                <li><a href="catalog_grid.html">生活保健</a></li>
+                <li><a href="catalog_grid.html">美容护肤</a></li>
+                <li><a href="catalog_grid.html">其他</a></li>
+              </ul>
+            </li>
+            <li><a href="catalog_grid.html">欧洲</a>
+			  <ul class="sub">
+                <li><a href="catalog_grid.html">美容护肤</a></li>
+                <li><a href="catalog_grid.html">母婴用品</a></li>
+                <li><a href="catalog_grid.html">生活保健</a></li>
+                <li><a href="catalog_grid.html">其他</a></li>
+              </ul>
+			     </li>
+            <li><a href="catalog_grid.html">达人推荐</a></li>
+	    <li>
+              <a href="#">铺子珍品</a>
+  
+            </li>
+          </ul>
+        </nav><!-- .primary -->
+      </div><!-- .grid_12 -->
+    </div><!-- .container_12 -->
+  </div><!-- .block_nav_primary -->
+
+  <div class="clear"></div>
+
+  <div class="container_12">
+    <div class="grid_12">
+        <div class="slidprev"><span>Prev</span></div>
+        <div class="slidnext"><span>Next</span></div>
+        <div id="slider">
+          <div id="slide1">
+            <img src="images/content/slide1.jpg" alt="" title="" />
+            <div class="slid_text">
+              <h3 class="slid_title"><span>全球购</span></h3>
+              <p><span>全球四大洲,</span></p>
+              <p><span>百样商品,</span></p>
+              <p><span>挑到手软.</span></p>
+            </div>
+          </div>
+
+          <div id="slide2">
+            <img src="images/content/slide2.jpg" alt="" title="" />
+            <div class="slid_text">
+              <h3 class="slid_title"><span>可信赖</span></h3>
+              <p><span>全球发货,</span></p>
+			  <p><span>货真价实.</span></p>
+              <p><span>拒绝赝品.</span></p>
+            </div>
+          </div>
+
+          <div id="slide3">
+            <img src="images/content/slide3.jpg" alt="" title="" />
+            <div class="slid_text">
+              <h3 class="slid_title"><span>高品质</span></h3>
+              <p><span>高品质的商品，</span></p>
+              <p><span>让你过更好的生活，</span></p>
+			   <p><span>做更好的自己。</span></p>
+            </div>
+          
+          </div>
+        </div><!-- .slider -->
+        <div id="myController">
+          <div class="control"><span>1</span></div>
+          <div class="control"><span>2</span></div>
+          <div class="control"><span>3</span></div>
+        </div>
+
+
+    </div><!-- .grid_12 -->
+  </div><!-- .container_12 -->
+
+
+  <section id="main" class="home">
+    <div class="container_12">
+      <div id="top_button">
+        <div class="grid_4">
+          <a href="#" class="button_block best_price">
+            <img src="images/banner1.png" alt="Banner 1"/>
+          </a><!-- .best_price -->
+        </div><!-- .grid_4 -->
+
+        <div class="grid_4">
+          <a href="#" class="button_block new_smells">
+            <img src="images/banner2.png" alt="Banner 2"/>
+          </a><!-- .new smells -->
+        </div><!-- .grid_4 -->
+
+        <div class="grid_4">
+          <a href="#" class="button_block only_natural">
+            <img src="images/banner3.png" alt="Banner 3"/>
+          </a><!-- .only_natural -->
+        </div><!-- .grid_4 -->
+
+        <div class="clear"></div>
+      </div><!-- #top_button -->
+
+      <div class="clear"></div>
+
+      <div class="carousel">
+        <div class="c_header">
+          <div class="grid_10">
+            <h2>畅销商品</h2>
+          </div><!-- .grid_10 -->
+
+          <div class="grid_2">
+            <a id="next_c1" class="next arows" href="#"><span>Next</span></a>
+            <a id="prev_c1" class="prev arows" href="#"><span>Prev</span></a>
+           </div><!-- .grid_2 -->
+        </div><!-- .c_header -->
+
+        <div class="list_carousel">
+
+        <ul id="list_product" class="list_product">
+          <li class="">
+            <div class="grid_3 product">
+              <img class="sale" src="images/sale.png" alt="Sale"/>
+              <div class="prev">
+                <a href="#"><img src="images/product_1.png" alt="" title="" /></a>
+              </div><!-- .prev -->
+              <h3 class="title">韩国可莱丝面膜 nmf针剂补水1片</h3>
+              <div class="cart">
+                <div class="price">
+                <div class="vert">
+                  <div class="price_new">$X.00</div>
+                  <div class="price_old">$X.00</div>
+                </div>
+                </div>
+                <a href="#" class="obn"></a>
+                <a href="#" class="like"></a>
+                <a href="#" class="bay"></a>
+              </div><!-- .cart -->
+            </div><!-- .grid_3 -->
+          </li>
+
+          <li class="">
+            <div class="grid_3 product">
+              <img class="sale" src="images/sale.png" alt="Sale"/>
+              <div class="prev">
+                <a href=""><img src="images/product_2.png" alt="" title="" /></a>
+              </div><!-- .prev -->
+              <h3 class="title">Swisse 液体血橙胶原蛋白500ml</h3>
+              <div class="cart">
+                <div class="price">
+                <div class="vert">
+                  <div class="price_new">$X.00</div>
+                  <div class="price_old">$X.00</div>
+                </div>
+                </div>
+                <a href="#" class="obn"></a>
+                <a href="#" class="like"></a>
+                <a href="#" class="bay"></a>
+              </div><!-- .cart -->
+            </div><!-- .grid_3 -->
+          </li>
+
+          <li class="">
+            <div class="grid_3 product">
+              <div class="prev">
+                <a href=""><img src="images/product_3.png" alt="" title="" /></a>
+              </div><!-- .prev -->
+              <h3 class="title">Sukin Antioxidant Eye Serum天然抗氧化精华眼霜30ml</h3>
+              <div class="cart">
+                <div class="price">
+                <div class="vert">
+                  <div class="price_new">$X.00</div>
+                </div>
+                </div>
+                <a href="#" class="obn"></a>
+                <a href="#" class="like"></a>
+                <a href="#" class="bay"></a>
+              </div><!-- .cart -->
+            </div><!-- .grid_3 -->
+          </li>
+
+          <li class="">
+            <div class="grid_3 product">
+              <img class="sale" src="images/sale.png" alt="Sale"/>
+              <div class="prev">
+                <a href=""><img src="images/product_4.png" alt="" title="" /></a>
+              </div><!-- .prev -->
+              <h3 class="title">韩国IOPE气垫BB霜15g</h3>
+              <div class="cart">
+                <div class="price">
+                <div class="vert">
+                  <div class="price_new">$X.00</div>
+                  <div class="price_old">$X.00</div>
+                </div>
+                </div>
+                <a href="#" class="obn"></a>
+                <a href="#" class="like"></a>
+                <a href="#" class="bay"></a>
+              </div><!-- .cart -->
+            </div><!-- .grid_3 -->
+          </li>
+
+          <li class="">
+            <div class="grid_3 product">
+              <div class="prev">
+                <a href=""><img src="images/product_8.png" alt="" title="" /></a>
+              </div><!-- .prev -->
+              <h3 class="title">HERA/赫拉 Aqua系列细胞再生保湿/均衡水乳套装2件</h3>
+              <div class="cart">
+                <div class="price">
+                <div class="vert">
+                  <div class="price_new">$X.00</div>
+                  <div class="price_old">$X.00</div>
+                </div>
+                </div>
+                <a href="#" class="obn"></a>
+                <a href="#" class="like"></a>
+                <a href="#" class="bay"></a>
+              </div><!-- .cart -->
+            </div><!-- .grid_3 -->
+          </li>
+
+        </ul><!-- #list_product -->
+        </div><!-- .list_carousel -->
+      </div><!-- .carousel -->
+
+      <div class="carousel">
+        <div class="c_header">
+          <div class="grid_10">
+            <h2>精选商品</h2>
+          </div><!-- .grid_10 -->
+
+          <div class="grid_2">
+            <a id="next_c2" class="next arows" href="#"><span>Next</span></a>
+            <a id="prev_c2" class="prev arows" href="#"><span>Prev</span></a>
+          </div><!-- .grid_2 -->
+        </div><!-- .c_header -->
+
+        <div class="list_carousel">
+        <ul id="list_product2" class="list_product">
+          <li class="">
+            <div class="grid_3 product">
+              <img class="sale" src="images/sale.png" alt="Sale"/>
+              <div class="prev">
+                <a href=""><img src="images/product_5.png" alt="" title="" /></a>
+              </div><!-- .prev -->
+              <h3 class="title">韩国吕洗发水</h3>
+              <div class="cart">
+                <div class="price">
+                <div class="vert">
+                  <div class="price_new">$X.00</div>
+                  <div class="price_old">$X.00</div>
+                </div>
+                </div>
+                <a href="#" class="obn"></a>
+                <a href="#" class="like"></a>
+                <a href="#" class="bay"></a>
+              </div><!-- .cart -->
+            </div><!-- .grid_3 -->
+          </li>
+
+          <li class="">
+            <div class="grid_3 product">
+              <img class="sale" src="images/sale.png" alt="Sale"/>
+              <div class="prev">
+                <a href=""><img src="images/product_6.png" alt="" title="" /></a>
+              </div><!-- .prev -->
+              <h3 class="title">Jurlique 茱莉蔻 日间衡肌滋润面霜 125ml/4.3oz Balancing Day Care Cream</h3>
+              <div class="cart">
+                <div class="price">
+                <div class="vert">
+                  <div class="price_new">$X.00</div>
+                  <div class="price_old">$X.00</div>
+                </div>
+                </div>
+                <a href="#" class="obn"></a>
+                <a href="#" class="like"></a>
+                <a href="#" class="bay"></a>
+              </div><!-- .cart -->
+            </div><!-- .grid_3 -->
+          </li>
+
+          <li class="">
+            <div class="grid_3 product">
+              <div class="prev">
+                <a href=""><img src="images/product_7.png" alt="" title="" /></a>
+              </div><!-- .prev -->
+              <h3 class="title">Swisse 奶蓟草护肝片120粒*两瓶 解酒排毒 男士必备 澳洲原装进口直邮</h3>
+              <div class="cart">
+                <div class="price">
+                <div class="vert">
+                  <div class="price_new">$X.00</div>
+                </div>
+                </div>
+                <a href="#" class="obn"></a>
+                <a href="#" class="like"></a>
+                <a href="#" class="bay"></a>
+              </div><!-- .cart -->
+            </div><!-- .grid_3 -->
+          </li>
+
+          <li class="">
+            <div class="grid_3 product">
+              <img class="sale" src="images/sale.png" alt="Sale"/>
+              <div class="prev">
+                <a href=""><img src="images/produkt_slid1.png" alt="" title="" /></a>
+              </div><!-- .prev -->
+              <h3 class="title">Karicare可瑞康3段金装幼儿配方奶粉900g</h3>
+              <div class="cart">
+                <div class="price">
+                <div class="vert">
+                  <div class="price_new">$X.00</div>
+                  <div class="price_old">$X.00</div>
+                </div>
+                </div>
+                <a href="#" class="obn"></a>
+                <a href="#" class="like"></a>
+                <a href="#" class="bay"></a>
+              </div><!-- .cart -->
+            </div><!-- .grid_3 -->
+          </li>
+
+          <li class="">
+            <div class="grid_3 product">
+              <div class="prev">
+                <a href=""><img src="images/product_9.png" alt="" title="" /></a>
+              </div><!-- .prev -->
+              <h3 class="title">雪花秀珍雪臻秀水</h3>
+              <div class="cart">
+                <div class="price">
+                <div class="vert">
+                  <div class="price_new">$X.00</div>
+                  <div class="price_old">$X.00</div>
+                </div>
+                </div>
+                <a href="#" class="obn"></a>
+                <a href="#" class="like"></a>
+                <a href="#" class="bay"></a>
+              </div><!-- .cart -->
+            </div><!-- .grid_3 -->
+          </li>
+
+        </ul><!-- #list_product2 -->
+        </div><!-- .list_carousel -->
+      </div><!-- .carousel -->
+
+
+</body>
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+</html>
